@@ -1,0 +1,3 @@
+---
+# defaults file for airflow
+airflow_python_ver: '3.6'
