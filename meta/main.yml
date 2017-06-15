@@ -23,6 +23,8 @@ galaxy_info:
     - development
 
 dependencies:
+  - src: andrewrothstein.gcc-toolbox
+    version: v1.0.5
   - src: andrewrothstein.miniconda
     version: v5.0.0
     miniconda_make_sys_default: True
