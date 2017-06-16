@@ -25,10 +25,6 @@ galaxy_info:
 dependencies:
   - src: andrewrothstein.gcc-toolbox
     version: v1.0.5
-  - src: andrewrothstein.miniconda
-    version: v5.0.0
-    miniconda_make_sys_default: True
-    miniconda_cleanup: True
   - src: andrewrothstein.conda-env
     version: v2.0.1
     conda_env_name: airflow
