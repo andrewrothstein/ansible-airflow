@@ -3,4 +3,4 @@ dependencies:
   - python={{airflow_python_ver}}
   - pip
   - pip:
-      - airflow
+      - apache-airflow=={{airflow_ver}}
