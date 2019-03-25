@@ -1,6 +1,6 @@
 ---
+channels:
+  - conda-forge
 dependencies:
   - python={{airflow_python_ver}}
-  - pip
-  - pip:
-      - apache-airflow=={{airflow_ver}}
+  - airflow={{airflow_ver}}
