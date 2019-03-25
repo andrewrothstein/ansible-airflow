@@ -24,9 +24,9 @@ galaxy_info:
 
 dependencies:
   - src: andrewrothstein.gcc-toolbox
-    version: v1.0.7
+    version: v1.0.10
   - src: andrewrothstein.conda-env
-    version: v2.0.2
+    version: v2.0.5
     conda_env_name: airflow
     conda_env_environment: airflow-environment.yml
 
