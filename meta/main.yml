@@ -1,32 +1,27 @@
----
+dependencies:
+- role: andrewrothstein.gcc-toolbox
+  version: v1.0.11
+- role: andrewrothstein.conda-env
+  version: v2.0.5
 galaxy_info:
   author: Andrew Rothstein
-  description: installs airflow
   company: PointState Capital
+  description: installs airflow
+  galaxy_tags:
+  - development
   license:
-    - MIT
+  - MIT
   min_ansible_version: 2.0
   platforms:
-    - name: EL
-      versions:
-        - all
-    - name: Fedora
-      versions:
-        - all
-    - name: Ubuntu
-      versions:
-        - all
-    - name: Debian
-      versions:
-        - jessie
-  galaxy_tags:
-    - development
-
-dependencies:
-  - src: andrewrothstein.gcc-toolbox
-    version: v1.0.10
-  - src: andrewrothstein.conda-env
-    version: v2.0.5
-    conda_env_name: airflow
-    conda_env_environment: airflow-environment.yml
-
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - jessie
