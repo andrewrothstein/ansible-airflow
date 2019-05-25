@@ -2,7 +2,7 @@ dependencies:
 - role: andrewrothstein.gcc-toolbox
   version: v1.0.11
 - role: andrewrothstein.conda-env
-  version: v2.0.5
+  version: v2.0.7
 galaxy_info:
   author: Andrew Rothstein
   company: PointState Capital
