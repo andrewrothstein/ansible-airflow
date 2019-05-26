@@ -1,3 +1,2 @@
----
-- src: andrewrothstein.miniconda
+- role: andrewrothstein.miniconda
   version: v5.2.5
