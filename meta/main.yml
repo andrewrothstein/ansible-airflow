@@ -4,7 +4,7 @@ dependencies:
 - conda_env_environment: airflow-environment.yml
   conda_env_name: airflow
   role: andrewrothstein.conda-env
-  version: v2.0.7
+  version: v2.0.10
 galaxy_info:
   author: Andrew Rothstein
   company: PointState Capital

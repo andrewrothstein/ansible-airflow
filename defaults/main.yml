@@ -1,4 +1,4 @@
 ---
 # defaults file for airflow
 airflow_python_ver: '3.7'
-airflow_ver: '1.10.6'
+airflow_ver: '1.10.7'
